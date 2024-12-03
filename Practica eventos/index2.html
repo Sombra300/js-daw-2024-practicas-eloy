@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Validado</title>
+</head>
+<body>
+    <form id="form">
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <span id="email-error" style="color: red; display: none;">Formato de email: xxxx@yyyy.zzzz</span>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <span id="password-error" style="color: red; display: none;">Longitud entre 8 y 10 caracteres</span>
+        </div>
+        <button type="submit" id="submit-btn" disabled>Enviar</button>
+    </form>
+
+    <script src="2.js"></script>
+</body>
+</html>
